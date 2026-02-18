@@ -15,7 +15,7 @@ public class ContactsPageTest extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
 	
-	public ContactsPageTest() {
+	public ContactsPageTest(){
 		super();
 	}
 	
@@ -50,7 +50,6 @@ public class ContactsPageTest extends TestBase {
 		homePage.clickOnNewContactLinkPlusButton();
 		contactPage.createNewContact("Nikhile", "tyagii");
 	}
-	
 	
 	@AfterMethod
 	public void tearDown() {

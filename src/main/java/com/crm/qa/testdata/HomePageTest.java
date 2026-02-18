@@ -35,7 +35,7 @@ public class HomePageTest extends TestBase {
 		Assert.assertEquals(hometitle, "Free CRM","HomePageTitle not matched");
 	}
 	
-	@Test (priority=2)
+	@Test(priority=2)
 	public void verifyUsernameTest() {
 		boolean b =homePage.verfifyCorrectUsername();
 		Assert.assertTrue(b);
